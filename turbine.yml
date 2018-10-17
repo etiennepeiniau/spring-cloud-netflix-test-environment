@@ -1,0 +1,8 @@
+turbine:
+  appConfig: client,randomint,randomletter,randomcolor
+  clusterNameExpression: "'default'"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]
